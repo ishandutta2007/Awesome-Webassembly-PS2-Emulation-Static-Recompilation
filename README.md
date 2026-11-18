@@ -1,42 +1,53 @@
-# Awesome WebAssembly PS2 Emulation & Static Recompilation
+<p align="center">
+  <img src="assets/banner.svg" alt="Awesome WebAssembly PS2 Emulation and Static Recompilation Banner" width="100%" />
+</p>
 
-[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-[![WebAssembly](https://img.shields.io/badge/WebAssembly-Wasm-654FF0?logo=webassembly&logoColor=white)](https://webassembly.org/)
-[![WebGPU](https://img.shields.io/badge/WebGPU-Graphics-blue)](https://www.w3.org/TR/webgpu/)
-[![PlayStation 2](https://img.shields.io/badge/PlayStation%202-EE%20%2F%20GS-003791?logo=playstation&logoColor=white)](https://en.wikipedia.org/wiki/PlayStation_2)
+# 🎮 Awesome WebAssembly PS2 Emulation & Static Recompilation 🚀
 
-> A curated list of leading cloud gaming SaaS platforms, browser-based WebAssembly runtimes, static recompilers, WebGPU graphics renderers, and open-source emulation ecosystems for the Sony PlayStation 2 and 6th-generation consoles.
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
+  <a href="https://discord.gg/jc4xtF5Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://awesome.re/badge.svg" alt="Awesome List" /></a>
+  <a href="https://webassembly.org/"><img src="https://img.shields.io/badge/WebAssembly-Wasm-654FF0?logo=webassembly&logoColor=white" alt="WebAssembly" /></a>
+  <a href="https://www.w3.org/TR/webgpu/"><img src="https://img.shields.io/badge/WebGPU-Graphics-blue" alt="WebGPU" /></a>
+  <a href="https://en.wikipedia.org/wiki/PlayStation_2"><img src="https://img.shields.io/badge/PlayStation%202-EE%20%2F%20GS-003791?logo=playstation&logoColor=white" alt="PlayStation 2" /></a>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
 
-**Curated Directory of Cloud Streaming SaaS Products & Open-Source GitHub Projects**  
-*Focused on Browser-Based PS2 Emulation, Ahead-of-Time Static Recompilation, WebGPU/WebGL Renderers, and Retro Gaming Runtimes*  
-**Last updated:** November 2026
+> 🌟 A curated list of leading cloud gaming SaaS platforms, browser-based WebAssembly runtimes, static recompilers, WebGPU graphics renderers, and open-source emulation ecosystems for the Sony PlayStation 2 and 6th-generation consoles.
 
-This directory (`Awesome-Webassembly-PS2-Emulation-Static-Recompilation`) monitors the evolution of next-generation gaming runtimes: translating PlayStation 2 Emotion Engine (MIPS R5900) machine code into portable C++ and WebAssembly (Wasm), running PCSX2 and Libretro cores locally inside web browsers, leveraging WebGPU for hardware Graphics Synthesizer (GS) rasterization, or streaming 6th-gen console classics via low-latency cloud infrastructure.
+**Curated Directory of Cloud Streaming SaaS Products & Open-Source GitHub Projects** 🌐  
+*Focused on Browser-Based PS2 Emulation, Ahead-of-Time Static Recompilation, WebGPU/WebGL Renderers, and Retro Gaming Runtimes* 🕹️  
+**Last updated:** November 2026 📅
 
----
-
-## Table of Contents
-
-- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
-- [SaaS & Hosted Cloud Platforms](#saas--hosted-cloud-platforms)
-- [Open-Source GitHub Projects](#open-source-github-projects)
-- [Key Architectural Approaches](#key-architectural-approaches)
-- [How to Contribute](#how-to-contribute)
-- [License & Disclaimer](#license--disclaimer)
+This directory (`Awesome-Webassembly-PS2-Emulation-Static-Recompilation`) monitors the evolution of next-generation gaming runtimes: translating PlayStation 2 Emotion Engine (MIPS R5900) machine code into portable C++ and WebAssembly (Wasm), running PCSX2 and Libretro cores locally inside web browsers, leveraging WebGPU for hardware Graphics Synthesizer (GS) rasterization, or streaming 6th-gen console classics via low-latency cloud infrastructure. ⚡
 
 ---
 
-## Sector Overview & Market Dynamics
+## 📑 Table of Contents
 
-The global cloud gaming and browser runtime ecosystem is estimated at **$4.9B to $6.5B in 2026** (scaling toward **$21B–$100B+ by 2030** at an estimated CAGR exceeding 40%). The sector exhibits **moderate fragmentation across specialized tiers**: while high-bandwidth cloud streaming infrastructure is **concentrated among hyper-scale platform holders** (Sony PlayStation, NVIDIA GeForce NOW, and cloud telecom alliances), the client-side WebAssembly, static recompilation, and retro software preservation landscape remains **highly fragmented and community-driven**, powered by decentralized open-source emulator developers, reverse engineers, and independent Wasm runtime hackers.
+- [📊 Sector Overview & Market Dynamics](#-sector-overview--market-dynamics)
+- [☁️ SaaS & Hosted Cloud Platforms](#️-saas--hosted-cloud-platforms)
+- [💻 Open-Source GitHub Projects](#-open-source-github-projects)
+- [🏗️ Key Architectural Approaches](#️-key-architectural-approaches)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [💖 Support & Sponsorship](#-support--sponsorship)
+- [📈 Star History](#-star-history)
+- [📜 License & Disclaimer](#-license--disclaimer)
 
 ---
 
-## SaaS & Hosted Cloud Platforms
+## 📊 Sector Overview & Market Dynamics
 
-The table below catalogs commercial hosted platforms, cloud gaming streaming providers, and proprietary console frontends capable of running retro console software. Entries are sorted descending by company scale (market capitalization, valuation, or verified annual revenue).
+The global cloud gaming and browser runtime ecosystem is estimated at **$4.9B to $6.5B in 2026** (scaling toward **$21B–$100B+ by 2030** at an estimated CAGR exceeding 40%). 📈 The sector exhibits **moderate fragmentation across specialized tiers**: while high-bandwidth cloud streaming infrastructure is **concentrated among hyper-scale platform holders** (Sony PlayStation, NVIDIA GeForce NOW, and cloud telecom alliances), the client-side WebAssembly, static recompilation, and retro software preservation landscape remains **highly fragmented and community-driven**, powered by decentralized open-source emulator developers, reverse engineers, and independent Wasm runtime hackers. 🌐
 
-| Platform | Company Scale (Valuation / Revenue) | Starting Tier Pricing | Free Tier / Trial Limits | Description |
+---
+
+## ☁️ SaaS & Hosted Cloud Platforms
+
+The table below catalogs commercial hosted platforms, cloud gaming streaming providers, and proprietary console frontends capable of running retro console software. Entries are sorted descending by company scale (market capitalization, valuation, or verified annual revenue). 🏢
+
+| Platform | Company Scale (Valuation / Revenue) 💼 | Starting Tier Pricing 🏷️ | Free Tier / Trial Limits 🎁 | Description 📝 |
 | :--- | :--- | :--- | :--- | :--- |
 | **[NVIDIA GeForce NOW](https://nvidia.com)** | ~$3.0T+ Market Cap / $120B+ Ann. Revenue (NVIDIA) | $9.99/month (Performance Tier, 1440p) or $19.99/month (Ultimate, 4K 240 FPS) | **Permanent Free Tier**: 1-hour session limit per launch, basic rig tier, ad-supported queue wait (up to 2 min video ads) | Ultra-low-latency cloud gaming service streaming PC and emulator-friendly game libraries directly to browsers, TVs, and mobile. |
 | **[PlayStation Plus Cloud Streaming](https://playstation.com)** | ~$110B+ Market Cap / ~$85B+ Ann. Revenue (Sony Group) | $17.99/month or $159.99/year (PlayStation Plus Premium) | **7-Day Free Trial**: Available selectively to eligible new PSN accounts (requires active payment method; cancels before day 7) | Sony official cloud subscription catalog streaming PS2, PS3, PS4, and PS5 classics without local hardware requirements. |
@@ -50,11 +61,11 @@ The table below catalogs commercial hosted platforms, cloud gaming streaming pro
 
 ---
 
-## Open-Source GitHub Projects
+## 💻 Open-Source GitHub Projects
 
-The following table catalogs prominent open-source repositories spanning PlayStation 2 static recompilation, WebAssembly runtimes, browser emulators, and compiler toolchains. Projects are sorted descending by GitHub star count, with each star badge linking directly to the repository stargazers page.
+The following table catalogs prominent open-source repositories spanning PlayStation 2 static recompilation, WebAssembly runtimes, browser emulators, and compiler toolchains. Projects are sorted descending by GitHub star count, with each star badge linking directly to the repository stargazers page. ⭐
 
-| Repository | GitHub Stars | License | Primary Architecture / Language | Description |
+| Repository 📦 | GitHub Stars 🌟 | License 📄 | Primary Architecture / Language ⚙️ | Description 📝 |
 | :--- | :--- | :--- | :--- | :--- |
 | **[NationalSecurityAgency/ghidra](https://github.com/NationalSecurityAgency/ghidra)** | [![Stars](https://img.shields.io/github/stars/NationalSecurityAgency/ghidra?style=social&color=white)](https://github.com/NationalSecurityAgency/ghidra/stargazers) | Apache-2.0 | Java / C++ / Reverse Engineering | Premier software reverse-engineering framework used across static recompilation workflows to decompile Emotion Engine MIPS binaries and map function symbols. |
 | **[emscripten-core/emscripten](https://github.com/emscripten-core/emscripten)** | [![Stars](https://img.shields.io/github/stars/emscripten-core/emscripten?style=social&color=white)](https://github.com/emscripten-core/emscripten/stargazers) | MIT / LLVM | C++ / Python / WebAssembly | Industry-standard LLVM-to-WebAssembly compiler toolchain compiling C/C++ emulator codebases (PCSX2, RetroArch, Play!) for web browser execution. |
@@ -69,7 +80,7 @@ The following table catalogs prominent open-source repositories spanning PlaySta
 | **[stenzek/duckstation](https://github.com/stenzek/duckstation)** | [![Stars](https://img.shields.io/github/stars/stenzek/duckstation?style=social&color=white)](https://github.com/stenzek/duckstation/stargazers) | GPL-3.0 | C++ / JIT / Vulkan | High-accuracy PlayStation 1 emulator featuring PGXP perspective precision, upscaling, and community-driven WebAssembly browser experiments. |
 | **[WebAssembly/binaryen](https://github.com/WebAssembly/binaryen)** | [![Stars](https://img.shields.io/github/stars/WebAssembly/binaryen?style=social&color=white)](https://github.com/WebAssembly/binaryen/stargazers) | Apache-2.0 | C++ / WebAssembly Optimizer | Compiler infrastructure and toolchain library optimizing Wasm binaries generated by static recompilers and emulator transpilers. |
 | **[N64Recomp/N64Recomp](https://github.com/N64Recomp/N64Recomp)** | [![Stars](https://img.shields.io/github/stars/N64Recomp/N64Recomp?style=social&color=white)](https://github.com/N64Recomp/N64Recomp/stargazers) | GPL-3.0 / MIT | C++ / MIPS III / Static Recompilation | Pioneering offline static recompiler translating N64 MIPS binaries and RSP microcode into clean, recompilable C code for native PC and WebAssembly builds. |
-| **[Zelda64Recomp/Zelda64Recomp](https://github.com/Zelda64Recomp/Zelda64Recomp)** | [![Stars](https://img.shields.io/github/stars/Zelda64Recomp/Zelda64Recomp/stargazers) | GPL-3.0 | C / C++ / RT64 Renderer | High-profile native PC port of Majora's Mask generated via N64Recomp static recompilation, supporting unlocked frame rates and RT64 enhancements. |
+| **[Zelda64Recomp/Zelda64Recomp](https://github.com/Zelda64Recomp/Zelda64Recomp)** | [![Stars](https://img.shields.io/github/stars/Zelda64Recomp/Zelda64Recomp?style=social&color=white)](https://github.com/Zelda64Recomp/Zelda64Recomp/stargazers) | GPL-3.0 | C / C++ / RT64 Renderer | High-profile native PC port of Majora's Mask generated via N64Recomp static recompilation, supporting unlocked frame rates and RT64 enhancements. |
 | **[hedge-dev/UnleashedRecomp](https://github.com/hedge-dev/UnleashedRecomp)** | [![Stars](https://img.shields.io/github/stars/hedge-dev/UnleashedRecomp?style=social&color=white)](https://github.com/hedge-dev/UnleashedRecomp/stargazers) | GPL-3.0 | C++ / PowerPC Recompilation | Unofficial native PC port of Sonic Unleashed (Xbox 360) created via ahead-of-time static recompilation with high-resolution rendering. |
 | **[EmulatorJS/EmulatorJS](https://github.com/EmulatorJS/EmulatorJS)** | [![Stars](https://img.shields.io/github/stars/EmulatorJS/EmulatorJS?style=social&color=white)](https://github.com/EmulatorJS/EmulatorJS/stargazers) | GPL-3.0 | JavaScript / WebAssembly | Self-hostable web emulation frontend compiling RetroArch cores to WebAssembly, featuring cloud saves, netplay, and virtual touch controls. |
 | **[ran-j/PS2Recomp](https://github.com/ran-j/PS2Recomp)** | [![Stars](https://img.shields.io/github/stars/ran-j/PS2Recomp?style=social&color=white)](https://github.com/ran-j/PS2Recomp/stargazers) | GPL-3.0 | C++ / MIPS R5900 / Static Recompiler | Advanced PlayStation 2 static recompiler and runtime framework translating PS2 ELF binaries into portable C++ to produce native PC and Wasm ports. |
@@ -95,23 +106,23 @@ The following table catalogs prominent open-source repositories spanning PlaySta
 
 ---
 
-## Key Architectural Approaches
+## 🏗️ Key Architectural Approaches
 
-1. **Ahead-of-Time (AOT) Static Recompilation:**  
+1. **⚡ Ahead-of-Time (AOT) Static Recompilation:**  
    Instead of interpreting machine code or translating instructions just-in-time (JIT) at runtime, static recompilers (e.g., `PS2Recomp`, `ps2-web-recomp`, `N64Recomp`) lift binary machine instructions (such as MIPS R5900 Emotion Engine or Allegrex) into portable intermediate C++ or LLVM IR. The translated code is subsequently compiled with modern optimizing compilers (Clang, GCC, or Emscripten) into native x86/ARM executables or WebAssembly modules. This technique delivers deterministic performance, zero JIT compilation stutter, and frictionless deployment to web browsers.
 
-2. **WebGPU Graphics Synthesizer Pipelines:**  
+2. **🎮 WebGPU Graphics Synthesizer Pipelines:**  
    The PlayStation 2 Graphics Synthesizer (GS) possesses a massive internal memory bandwidth (48 GB/s on-chip eDRAM) that historically posed severe bottlenecks for PC emulation. Modern browser recompilers and emulators leverage **WebGPU compute and render pipelines** (`wgpu`, `google/dawn`) to emulate custom GS blend modes, scissor registers, and texture sampling directly on modern client GPUs inside Chromium and WebKit browsers.
 
-3. **Cloud Game Streaming vs. Client-Side Wasm Runtimes:**  
+3. **☁️ Cloud Game Streaming vs. Client-Side Wasm Runtimes:**  
    * **Cloud SaaS Platforms** (`GeForce NOW`, `PlayStation Plus`, `Boosteroid`, `Shadow PC`) execute game binaries on dedicated remote server rigs equipped with hardware GPUs, transmitting audio/video frames via low-latency WebRTC streams.  
    * **WebAssembly Runtimes** (`ps2-web-recomp`, `TabStationToo`, `Play!`, `EmulatorJS`) run 100% locally on the user device inside the browser sandbox, preserving user privacy, enabling offline play, and eliminating streaming infrastructure costs.
 
 ---
 
-## How to Contribute
+## 🤝 How to Contribute
 
-Contributions are welcome! Please follow these guidelines:
+Contributions are welcome! 💖 Please follow these guidelines:
 1. Ensure the project is directly related to WebAssembly, PlayStation 2 emulation, static recompilation, or browser retro gaming.
 2. Maintain alphabetical ordering for new categories and star-count sorting for repository entries.
 3. Keep descriptions factual, concise, and neutral.
@@ -119,7 +130,25 @@ Contributions are welcome! Please follow these guidelines:
 
 ---
 
-## License & Disclaimer
+## 💖 Support & Sponsorship
+
+Thank you for visiting and using this curated list! 🙌 If you found this resource helpful, please consider:
+- ⭐ **Starring this repository** to help others discover it.
+- 🍴 **Forking and contributing** your favorite static recompilation and WebAssembly projects.
+- 📢 **Sharing** this repository across developer communities, social media, and forums.
+- ☕ **Buying a coffee or sponsoring** future maintenance on the [GitHub Sponsor Dashboard](https://github.com/sponsors/ishandutta2007).
+
+Your support helps keep open-source and emulation preservation resources active, accurate, and up-to-date! 🚀
+
+---
+
+##  Star History
+#[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Webassembly-PS2-Emulation-Static-Recompilation&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Webassembly-PS2-Emulation-Static-Recompilation&type=date&legend=top-left)`
+[![Star History Chart](https://www.star-history.com/svg?repos=ishandutta2007/Awesome-Webassembly-PS2-Emulation-Static-Recompilation&type=date&legend=top-left)](https://www.star-history.com/#ishandutta2007/Awesome-Webassembly-PS2-Emulation-Static-Recompilation&type=date&legend=top-left)`
+
+---
+
+## 📜 License & Disclaimer
 
 - Distributed under the [MIT License](LICENSE).
 - All product names, trademarks, and registered trademarks belong to their respective owners (Sony Interactive Entertainment Inc., NVIDIA Corporation, etc.). Their mention in this repository is strictly for descriptive, identification, and educational purposes.
