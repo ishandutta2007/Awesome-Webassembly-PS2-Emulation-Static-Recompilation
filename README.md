@@ -63,9 +63,9 @@ The table below catalogs commercial hosted platforms, cloud gaming streaming pro
 
 ## 💻 Open-Source GitHub Projects
 
-The following table catalogs prominent open-source repositories spanning PlayStation 2 static recompilation, WebAssembly runtimes, browser emulators, and compiler toolchains. Projects are sorted descending by GitHub star count, with each star badge linking directly to the repository stargazers page. ⭐
+The following table catalogs prominent open-source repositories spanning PlayStation 2 static recompilation, WebAssembly runtimes, browser emulators, and compiler toolchains. Projects are sorted descending by GitHub Stars_Count, with each Stars_Badge linking directly to the repository stargazers page. ⭐
 
-| Repository 📦 | GitHub Stars 🌟 | License 📄 | Primary Architecture / Language ⚙️ | Description 📝 |
+| Repository 📦 | GitHub_Stars 🌟 | License 📄 | Primary Architecture / Language ⚙️ | Description 📝 |
 | :--- | :--- | :--- | :--- | :--- |
 | **[NationalSecurityAgency/ghidra](https://github.com/NationalSecurityAgency/ghidra)** | [![Stars](https://img.shields.io/github/stars/NationalSecurityAgency/ghidra?style=social&color=white)](https://github.com/NationalSecurityAgency/ghidra/stargazers) | Apache-2.0 | Java / C++ / Reverse Engineering | Premier software reverse-engineering framework used across static recompilation workflows to decompile Emotion Engine MIPS binaries and map function symbols. |
 | **[emscripten-core/emscripten](https://github.com/emscripten-core/emscripten)** | [![Stars](https://img.shields.io/github/stars/emscripten-core/emscripten?style=social&color=white)](https://github.com/emscripten-core/emscripten/stargazers) | MIT / LLVM | C++ / Python / WebAssembly | Industry-standard LLVM-to-WebAssembly compiler toolchain compiling C/C++ emulator codebases (PCSX2, RetroArch, Play!) for web browser execution. |
